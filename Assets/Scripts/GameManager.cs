@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         nodosRestantes = GameObject.FindGameObjectsWithTag("Energy").Length;
+        textoHUD.text = "Nodos restantes: " + nodosRestantes;
     }
 
     public void RecolectarNodo()
@@ -33,6 +34,8 @@ public class GameManager : MonoBehaviour
     public void ReloadScene()
     {
         SceneManager.LoadScene("NivelPrincipal");
+        nodosRestantes = GameObject.FindGameObjectsWithTag("Energy").Length;
+        textoHUD.text = "Nodos restantes: " + nodosRestantes;
     }
     public TMP_Text textoHUD;
 
