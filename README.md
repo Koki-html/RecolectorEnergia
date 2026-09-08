@@ -9,11 +9,29 @@ Opto por hacer un Readme a un "IA.MD", para más orden.
 - Assets, Packages, ProjectSettings y .meta permanezcan versionables.
 **Decisión:** Tras leer todo un poco el resumen que me otorgó la IA, acepte todo sin realizar cambios. Principalmente porque no vi que afectara a ningun archivo que se me solicito no ignorar. (O eso creo...)
 
+En la parte del movimiento, no use IA generativa hasta cierto punto, note un cambió y lo ajuste por mi cuenta (Codigo Spagetti), volviendo de una hila de IF a un Switch... Lo cual descarte al ver que no permitía que se produciera el movimiento en Diagonal. 
+
+Valió la pena el intento.
+
+***Herramienta*** Github Copilot
+***Propuse*** Debug
+***Validaciones***
+- No solicito añadir nada, a excepción de la linea 11-12 de MovementScript.cs. C: todo parece ir OK
+
 #### ***English versión***
 # Log of Artificial Inteligence Use.
-**Herramienta** Github Copilot
-**Propósito:** Generating and explaining the .gitignore for Unity 6 
-**Validaciones**
+**Tool** Github Copilot
+**Propouse:** Generating and explaining the .gitignore for Unity 6 
+**Validations**
 - Library, Temp, Logs are ignored.
 - Assets, Packages, ProjectSettings y .meta stay in the repository
 **Decisión:** After reading everyting the resume Copilot gives me, y choose to acept it without changes, they'are anything will affect a archive in the second list. (or i think so...)
+
+in the Movement part are 0% IA for now, i notice something to change. (Spagetti code), the code passes of only IF's to Switch. But... Trying that, i nottice i can't move in Diagonals...
+
+Is worth to try.
+
+***Tool***: Github Copilot
+***Propouse***: Debug
+***Validation**:
+- Everything is alright, it doesn't add content new. Just say me to add the MovementScript.cs 11-12 line. c: Everything seens OK
