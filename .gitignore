@@ -1,0 +1,54 @@
+# Unity generated data and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Uu]ser[Ss]ettings/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Aa]sset[Ss]tore[Tt]ools/
+
+# Unity-generated IDE project files
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Visual Studio
+.vs/
+
+# Visual Studio Code local workspace data
+.vscode/
+
+# JetBrains Rider and ReSharper
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Build artifacts and packaged output
+/[Bb]uildOutput/
+/[Dd]ist/
+/*.[Aa][Pp][Kk]
+/*.[Aa][Aa][Bb]
+/*.[Uu][Nn][Ii][Tt][Yy][Pp][Aa][Cc][Kk][Aa][Gg][Ee]
+/*.[Aa][Pp][Pp]
+/*.[Ee][Xx][Ee]
+/*.[Dd][Ll][Ll]
+/*.[Pp][Dd][Bb]
+/*.zip
+
+# Logs and crash dumps
+/*.log
+/*.stackdump
+/*.dmp
+
+# OS metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
