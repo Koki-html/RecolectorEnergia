@@ -25,6 +25,8 @@ public class GameManager : MonoBehaviour
         if (nodosRestantes <= 0)
         {
             PanelVictoria.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
     

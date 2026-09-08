@@ -21,3 +21,9 @@ Valió la pena el intento.
 ***Herramienta*** Github Copilot
 ***Proposito*** Revisar el GameManager.Cs
 - Solicito añadir una función que no termine de entender, preferí no añadirla.
+
+
+***Herramienta*** Github Copilot
+***Proposito*** Solución de Problemás con la Camara (El tuto no funco del todo)
+***Validaciones***
+- Al inicio generaba complicaciones, provocando que el saltó se bugueara. Más tras un debuggeo manual (Se habia roto el Cilinder de Player) se soluciono. No hubo necesidad de quitar nada. A su par, otro ploblema que se generaba era el que no permitía reiniciar el Nivel por un bloqueo de Cursor (cosa que se desactivó)
