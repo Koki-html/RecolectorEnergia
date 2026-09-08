@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,10 +21,17 @@ public class GameManager : MonoBehaviour
     public void RecolectarNodo()
     {
         nodosRestantes--;
-
+        textoHUD.text = "Nodos restantes: " + nodosRestantes;
         if (nodosRestantes <= 0)
         {
             PanelVictoria.SetActive(true);
         }
     }
+    
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene("NivelPrincipal");
+    }
+    public TMP_Text textoHUD;
+
 }

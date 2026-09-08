@@ -18,20 +18,6 @@ Valió la pena el intento.
 ***Validaciones***
 - No solicito añadir nada, a excepción de la linea 11-12 de MovementScript.cs. C: todo parece ir OK
 
-#### ***English versión***
-# Log of Artificial Inteligence Use.
-**Tool** Github Copilot
-**Propouse:** Generating and explaining the .gitignore for Unity 6 
-**Validations**
-- Library, Temp, Logs are ignored.
-- Assets, Packages, ProjectSettings y .meta stay in the repository
-**Decisión:** After reading everyting the resume Copilot gives me, y choose to acept it without changes, they'are anything will affect a archive in the second list. (or i think so...)
-
-in the Movement part are 0% IA for now, i notice something to change. (Spagetti code), the code passes of only IF's to Switch. But... Trying that, i nottice i can't move in Diagonals...
-
-Is worth to try.
-
-***Tool***: Github Copilot
-***Propouse***: Debug
-***Validation**:
-- Everything is alright, it doesn't add content new. Just say me to add the MovementScript.cs 11-12 line. c: Everything seens OK
+***Herramienta*** Github Copilot
+***Proposito*** Revisar el GameManager.Cs
+- Solicito añadir una función que no termine de entender, preferí no añadirla.
